@@ -26,6 +26,7 @@ module.exports = {
 //   === so that the images could be uploadable to gh-pages ===
   images: {
     loader: 'imgix',
-    path: 'supermacchan-blog.imgix.net',
+    path: 'supermacchan-blog',
+    // path: 'supermacchan-blog.imgix.net',
   },
 }
