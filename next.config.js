@@ -43,7 +43,7 @@ module.exports = {
       {
         source: "//supermacchan.github.io/nextjs-blog/",
         headers: [
-          { key: "Access-Control-Allow-Origin", value: "https://supermacchan-blog.imgix.net" },
+          { key: "Access-Control-Allow-Origin", value: "*" },
         ],
       },
     ]
