@@ -28,7 +28,7 @@ module.exports = {
     loader: 'imgix',
     // path: 'supermacchan-blog',
     path: 'https://supermacchan-blog.imgix.net',
-    formats: ['image/webp', 'image/jpeg', 'image/png', 'image/jpg'],
+    formats: ['image/webp'],
     // disableStaticImages: false,
     // remotePatterns: [
     //   {
