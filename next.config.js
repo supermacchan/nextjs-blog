@@ -27,13 +27,13 @@ module.exports = {
   images: {
     loader: 'imgix',
     // path: 'supermacchan-blog',
-    path: 'supermacchan-blog.imgix.net',
-    disableStaticImages: false,
-    remotePatterns: [
-      {
-        protocol: 'https',
-        hostname: 'supermacchan-blog.imgix.net',
-      },
-    ],
+    path: 'https://supermacchan-blog.imgix.net',
+    // disableStaticImages: false,
+    // remotePatterns: [
+    //   {
+    //     protocol: 'https',
+    //     hostname: 'https://supermacchan-blog.imgix.net',
+    //   },
+    // ],
   },
 }
