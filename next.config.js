@@ -29,5 +29,11 @@ module.exports = {
     // path: 'supermacchan-blog',
     path: 'supermacchan-blog.imgix.net',
     disableStaticImages: false,
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'supermacchan-blog.imgix.net',
+      },
+    ],
   },
 }
