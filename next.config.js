@@ -28,5 +28,6 @@ module.exports = {
     loader: 'imgix',
     // path: 'supermacchan-blog',
     path: 'supermacchan-blog.imgix.net',
+    disableStaticImages: false,
   },
 }
