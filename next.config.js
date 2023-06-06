@@ -38,4 +38,14 @@ module.exports = {
     //   },
     // ],
   },
+  async headers() {
+    return [
+      {
+        source: "https://supermacchan.github.io/nextjs-blog/*",
+        headers: [
+          { key: "Access-Control-Allow-Origin", value: "https://supermacchan-blog.imgix.net" },
+        ],
+      },
+    ]
+  },
 }
