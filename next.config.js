@@ -25,10 +25,11 @@ module.exports = {
   basePath: basePath,
 //   === so that the images could be uploadable to gh-pages ===
   images: {
+    domains: ['https://supermacchan-blog.imgix.net'],
     loader: 'imgix',
     // path: 'supermacchan-blog',
     path: 'https://supermacchan-blog.imgix.net',
-    formats: ['image/webp'],
+    // formats: ['image/webp'],
     // disableStaticImages: false,
     // remotePatterns: [
     //   {
