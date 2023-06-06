@@ -26,17 +26,17 @@ module.exports = {
       }
   ]
   },
-  // async headers() {
-  //   return [
-  //     {
-  //       source: "//",
-  //       headers: [
-  //         { key: "Access-Control-Allow-Origin", value: "*" },
-  //         { key: "Content-Type", value: "image/webp"}
-  //       ],
-  //     },
-  //   ]
-  // },
+  async headers() {
+    return [
+      {
+        source: "//",
+        headers: [
+          { key: "Access-Control-Allow-Origin", value: "*" },
+          { key: "Content-Type", value: "image/webp"}
+        ],
+      },
+    ]
+  },
 }
 
   
