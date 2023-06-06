@@ -23,6 +23,7 @@ module.exports = {
         source: "//",
         headers: [
           { key: "Access-Control-Allow-Origin", value: "*" },
+          { key: "Content-Type", value: "image/webp"}
         ],
       },
     ]
